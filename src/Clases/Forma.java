@@ -10,7 +10,7 @@ import java.awt.Color;
  *
  * @author M. Tovar
  */
-public abstract class Forma {
+public abstract class Forma { //Se agregó 'abstract' a la clase,Evitar que se creen instancias de Forma directamente
     protected Color color;
 
     public Forma(Color color) {
@@ -21,11 +21,11 @@ public abstract class Forma {
         return color;
     }
     
-    
-    public abstract double area();
-    public abstract double perimetro();
+    // Métodos abstractos (sin implementación)
+    public abstract double area(); //Obligar a cada forma a calcular su área específica
+    public abstract double perimetro(); //Obligar a cada forma a calcular su perímetro específico
 
-    
+    // Método concreto (con implementación real)
     public void mostrarInformacion(String tipoForma) {
         System.out.println("=== " + tipoForma + " ===");
         System.out.println("Color: " + color.toString());

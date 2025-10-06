@@ -33,7 +33,7 @@ public class Formas {
 
         
         System.out.println("INFORMACION FORMAS:");
-        System.out.println("==========================");
+       
         
         rectangulo.mostrarInformacion("Rectangulo");
         circulo.mostrarInformacion("Circulo");
