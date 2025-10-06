@@ -6,6 +6,7 @@ package formas;
 
 import Clases.Circulo;
 import Clases.Cuadrado;
+import Clases.Forma;
 import Clases.Rectangulo;
 import java.awt.Color;
 
@@ -25,25 +26,17 @@ public class Formas {
         Color verde = new Color(0, 255, 0);
         Color azul = new Color(0, 0, 255);
 
-       
+        // Crear formas
         Rectangulo rectangulo = new Rectangulo(5.0, 3.0, rojo);
         Circulo circulo = new Circulo(2.0, verde);
         Cuadrado cuadrado = new Cuadrado(4.0, azul);
 
         
-        System.out.println("Rectangulo:");
-        System.out.println("Color: " + rectangulo.getColor());
-        System.out.println("Area: " + rectangulo.area());
-        System.out.println("Perimetro: " + rectangulo.perimetro());
-
-        System.out.println("Circulo:");
-        System.out.println("Color: " + circulo.getColor());
-        System.out.println("Area: " + circulo.area());
-        System.out.println("Perimetro: " + circulo.perimetro());
-
-        System.out.println("Cuadrado:");
-        System.out.println("Color: " + cuadrado.getColor());
-        System.out.println(" Area: " + cuadrado.area());
-        System.out.println("Perimetro: " + cuadrado.perimetro());
+        System.out.println("INFORMACION FORMAS:");
+        System.out.println("==========================");
+        
+        rectangulo.mostrarInformacion("Rectangulo");
+        circulo.mostrarInformacion("Circulo");
+        cuadrado.mostrarInformacion("Cuadrado");
     }
 }

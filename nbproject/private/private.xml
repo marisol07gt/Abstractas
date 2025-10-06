@@ -5,12 +5,13 @@
         <group>
             <file>file:/C:/Users/M.%20Tovar/Documents/NetBeansProjects/Formas/src/formas/Formas.java</file>
             <file>file:/C:/Users/M.%20Tovar/Documents/NetBeansProjects/Formas/src/Clases/Forma.java</file>
-            <file>file:/C:/Users/M.%20Tovar/Documents/NetBeansProjects/Formas/src/Clases/Triangulo.java</file>
             <file>file:/C:/Users/M.%20Tovar/Documents/NetBeansProjects/Formas/src/Clases/Circulo.java</file>
             <file>file:/C:/Users/M.%20Tovar/Documents/NetBeansProjects/Formas/src/Clases/Rectangulo.java</file>
             <file>file:/C:/Users/M.%20Tovar/Documents/NetBeansProjects/Formas/src/Clases/TrianguloEquilatero.java</file>
             <file>file:/C:/Users/M.%20Tovar/Documents/NetBeansProjects/Formas/src/Clases/Cuadrado.java</file>
             <file>file:/C:/Users/M.%20Tovar/Documents/NetBeansProjects/Formas/src/Clases/TrianguloIsoceles.java</file>
+            <file>file:/C:/Users/M.%20Tovar/Documents/NetBeansProjects/Formas/src/Clases/Triangulo.java</file>
+            <file>file:/C:/Users/M.%20Tovar/Documents/NetBeansProjects/Formas/src/Clases/TrainguloEscaleno.java</file>
         </group>
     </open-files>
 </project-private>

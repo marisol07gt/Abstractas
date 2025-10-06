@@ -10,9 +10,8 @@ import java.awt.Color;
  *
  * @author M. Tovar
  */
-public class Forma {
-  
-         public Color color;
+public abstract class Forma {
+    protected Color color;
 
     public Forma(Color color) {
         this.color = color;
@@ -21,21 +20,17 @@ public class Forma {
     public Color getColor() {
         return color;
     }
-    public double area() {
-        return 0;
-    }
     
-    public double perimetro() {
-        return 0;
-    }  
+    
+    public abstract double area();
+    public abstract double perimetro();
+
+    
+    public void mostrarInformacion(String tipoForma) {
+        System.out.println("=== " + tipoForma + " ===");
+        System.out.println("Color: " + color.toString());
+        System.out.println("Area: " + String.format("%.2f", area()));
+        System.out.println("Perimetro: " + String.format("%.2f", perimetro()));
         
-    }      
-
-    
-   
-    
-    
-    
-    
-    
-
+    }
+}
