@@ -50,6 +50,14 @@ public class Triangulo extends Forma {
         return base+lado1+lado2;
        
     }
+
+    @Override
+    public double perimetro() {
+        
+        return 0;
+       
+            
+    }
     
     
     
